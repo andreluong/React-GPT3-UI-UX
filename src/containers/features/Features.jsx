@@ -4,20 +4,20 @@ import './features.css'
 
 const FeaturesData = [
   {
-    title: 'Improving end distrusts instantly',
-    text: 'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.',
+    title: 'GitHub Copilot',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vulputate maximus euismod. Aenean in arcu volutpat, blandit elit et, semper.',
   },
   {
-    title: 'Become the tended active',
-    text: 'Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.',
+    title: 'Keeper Tax',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vulputate maximus euismod. Aenean in arcu volutpat, blandit elit et, semper.',
   },
   {
-    title: 'Message or am nothing',
-    text: 'Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address.',
+    title: 'Viable',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vulputate maximus euismod. Aenean in arcu volutpat, blandit elit et, semper. ',
   },
   {
-    title: 'Really boy law county',
-    text: 'Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush..',
+    title: 'Duolingo',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vulputate maximus euismod. Aenean in arcu volutpat, blandit elit et, semper. ',
   }
 ]
 
@@ -25,8 +25,8 @@ const Features = () => {
   return (
     <div className="gpt3__features section__padding" id="features">
       <div className="gpt3__features-heading">
-        <h1 className="gradient__text">The Future is Now and You Just Need To Realize It. Step into Future Today and Make It Happen</h1>
-        <p>Request Early Access to Get Started</p>
+        <h1 className="gradient__text">Built with OpenAi's Incredible API</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur</p>
       </div>
       <div className="gpt3__features-container">
         { FeaturesData.map((item, index) => (
