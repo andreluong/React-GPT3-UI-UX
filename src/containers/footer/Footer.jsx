@@ -13,11 +13,10 @@ const Footer = () => {
       </div>
       <div className="gpt3__footer-links">
         <div className="gpt3__footer-links_logo">
-          <img src={gpt3Logo} alt="logo" />
-          <p>Crechterwoord K12 182 DK Alknjkcb, <br /> All Rights Reserved</p>
+          <a href="#top"><img src={gpt3Logo} alt="logo" /></a>
         </div>
         <div className="gpt3__footer-links_div">
-          <h4>Links</h4>
+          <h4>Links</h4>  
           <p>Overons</p>
           <p>Social Media</p>
           <p>Counters</p>

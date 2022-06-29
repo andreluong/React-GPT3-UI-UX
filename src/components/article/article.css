@@ -29,7 +29,7 @@
 }
 
 .gpt3__blog-container_article-content p {
-    font-size: 11.649px;
+    font-size: 11px;
     font-weight: bold;
     line-height: 35px;
     font-family: var(--font-family);
@@ -37,7 +37,7 @@
 }
 
 .gpt3__blog-container_article-content h3 {
-    font-size: 25.11px;
+    font-size: 25px;
     font-weight: 800;
     line-height: 30px;
     font-family: var(--font-family);
@@ -49,6 +49,10 @@
 
 .gpt3__blog-container_article-content p:last-child {
     cursor: pointer;
+}
+
+.gpt3__blog-container_article-content p:last-child:hover {
+    color: var(--color-text-hover); 
 }
 
 @media screen and (max-width: 550px) {

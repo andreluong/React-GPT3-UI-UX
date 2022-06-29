@@ -45,6 +45,10 @@
     word-spacing: 2px;
 }
 
+.gpt3__footer-btn:hover {
+    background-color: #021020;
+}
+
 .gpt3__footer-links {
     display: flex;
     justify-content: space-between;
@@ -71,13 +75,7 @@
     height: 30px;
 
     margin-bottom: 1rem;
-}
-
-.gpt3__footer-links_logo p {
-    font-size: 12px;
-    line-height: 14px;
-    font-family: var(--font-family);
-    color: #fff;
+    cursor: pointer;
 }
 
 .gpt3__footer-links_div {
@@ -103,6 +101,10 @@
 
     margin: 0.5rem 0;
     cursor: pointer;
+}
+
+.gpt3__footer-links_div p:hover {
+    color: var(--color-text-hover);
 }
 
 .gpt3__footer-copyright {

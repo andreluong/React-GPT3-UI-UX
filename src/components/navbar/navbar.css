@@ -47,6 +47,11 @@
     cursor: pointer;
 }
 
+.gpt3__navbar-links_container p:hover,
+.gpt3__navbar-menu_container-links p:hover {
+    color: var(--color-text-hover);
+}
+
 .gpt3__navbar-sign button,
 .gpt3__navbar-menu_container button {
     padding: 0.5rem 1rem;
@@ -97,6 +102,14 @@
 
 .gpt3__navbar-menu_container-links-sign {
     display: none;
+}
+
+.gpt3__navbar-sign p:hover {
+    color: var(--color-text-hover);
+}
+
+.gpt3__navbar-sign button:hover {
+    background-color: red;
 }
 
 @media screen and (max-width: 1050px) {
